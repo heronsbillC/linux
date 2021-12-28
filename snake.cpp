@@ -93,7 +93,7 @@ void Snake::paintEvent(QPaintEvent *event){ //所有的绘图都要在paintEvent
     painter.drawRects(&vSnakeRect[0],vSnakeRect.size());//把整个蛇画出来
 
     //在界面中画出食物
-    painter.drawPixmap(Food,QPixmap("/home/chenyusha/Downloads/linux-projects/snake/img/Apple.png"));
+    painter.drawPixmap(Food,QPixmap(":/new/img/img/Apple.png"));
 
     //游戏停止，通过让计时器停止来结束
     if(blsOver)
